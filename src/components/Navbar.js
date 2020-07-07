@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className='nav-wrapper green darken-3'>
             <div className='container nav-wrapper'>
-                <a href="/" className="brand-logo"><i className="material-icons">timeline</i>COVID-19 Tracker</a>                
+                <a href="/" className="brand-logo"><i className="material-icons">timeline</i>UK COVID-19 Tracker</a>                
                 <ul className='right'>
                     <li><a href='/'>Dashboard</a></li>
                     <li><a href='/graphs'>Graphs</a></li>

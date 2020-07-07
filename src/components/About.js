@@ -12,6 +12,13 @@ const About = () => {
                         <p>The data for this service is provided through the Covid-19 REST API. The link to this API can be found <a className='black-text' href={'https://about-corona.net/documentation'}>here</a></p>
                     </div>
             </div>
+
+            <div className="card yellow darken-1">
+                    <div className="card-content black-text">
+                        <span className="card-title large">The Graphs</span>
+                        <p>The graphs were made using the React wrapper for Chart.js <a className='blue-text' href={'https://github.com/jerairrest/react-chartjs-2'}>(Link)</a></p>
+                    </div>
+            </div>
         </div>
     )
 }
