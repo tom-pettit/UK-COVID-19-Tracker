@@ -10,7 +10,7 @@
 [![DASHBOARD](https://snipboard.io/c14DkF.jpg)]()
 
 ## Table of Contents 
-- [How it's made](#howitsmade)
+- [How It's Made](#howitsmade)
 - [Features](#features)
 - [Support](#support)
 - [License](#license)
