@@ -2,16 +2,31 @@
 
 **This is a website displaying the most up-to-date information about the COVID-19 situation in the UK, including the daily stats, overall stats and graphs of the virus's effect over time**
 
+**Built with React.**
+
 ![GitHub](https://img.shields.io/github/license/tom-pettit/GeneralRedditBot?style=for-the-badge)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/tom-pettit/GeneralRedditBot?style=for-the-badge)
 
 [![DASHBOARD](https://snipboard.io/c14DkF.jpg)]()
 
 ## Table of Contents 
+- [How it's made](#howitsmade)
 - [Features](#features)
 - [Support](#support)
 - [License](#license)
 
+
+---
+
+## How It's Made
+**React**
+> This site was built using <a href="https://reactjs.org/" target="_blank">`React`</a>, a JavaScript library for building user interfaces.
+
+**The API**
+> The data for this service is provided through the Covid-19 REST API. The link to this API can be found <a href='https://about-corona.net/documentation'>here</a>
+
+**The Graphs**
+> The graphs were made using the React wrapper for Chart.js <a href='https://github.com/jerairrest/react-chartjs-2'>(Link)</a>
 
 ---
 
