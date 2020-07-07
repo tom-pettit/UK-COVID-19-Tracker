@@ -15,6 +15,29 @@
 
 ---
 
+## Features
+**Dashboard**
+> This is the home page that the user lands on. At the top, today's number of deaths and cases is shown. Below, more general stats are shown:
+
+- The total number of deaths in the UK from COVID-19
+- The total number of infections in the UK from COVID-19
+- The number of cases per million of the population in the UK
+- The death rate of COVID-19 in the UK (ie the percentage of people who have died upon contracting the virus)
+- The date of the first case of COVID-19 in the UK
+
+> NOTE: A value of 0 means that the API is yet to provide this data at the time the website is viewed, but will update immediately upon the publishing of these stats.
+
+---
+
+**The Graphs**
+> By clicking the 'Graphs' tab in the navbar, the user can see a page showing 2 graphs: one for deaths from COVID-19, and one for COVID-19 infections.
+
+> These graphs help to visualise how the virus has developed over time in the UK.
+
+> NOTE: Where there are missing bars, the data is unavailable for that day.
+
+---
+
 
 ## Support
 
