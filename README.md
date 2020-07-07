@@ -5,7 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/tom-pettit/GeneralRedditBot?style=for-the-badge)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/tom-pettit/GeneralRedditBot?style=for-the-badge)
 
-[![DASHBOARD](https://snipboard.io/DH74aU.jpg)]()
+[![DASHBOARD](https://snipboard.io/c14DkF.jpg)]()
 
 ## Table of Contents 
 - [Features](#features)
