@@ -48,8 +48,23 @@ class DeathsGraph extends React.Component {
             <div className='chart'>
                <Bar data={this.state.chartData} options={{
                    legend: {display:true,
-                            position:'right'
-                   }
+                            position:'right',
+                            labels: {
+                                fontColor: 'white'
+                            },
+                   },
+                   scales: {
+                        yAxes: [{
+                            ticks: {
+                                fontColor: 'white'
+                            }
+                        }],
+                        xAxes: [{
+                            ticks: {
+                                fontColor: 'white'
+                            }
+                        }]
+                    }
                }}/>
             </div>
         )

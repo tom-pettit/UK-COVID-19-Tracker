@@ -22,7 +22,7 @@ class InfectionsGraph extends React.Component {
             var newLabels = [];
             var newDatasets = [{label: 'Infections', 
                                 data: [],
-                                backgroundColor: 'rgb(170, 66, 245)'}]
+                                backgroundColor: 'rgb(255, 200, 0)'}]
             for (i = 0; i < previousData.length; i++) {
 
                 newLabels.push(previousData[i].updated_at.slice(0,10))
@@ -45,7 +45,22 @@ class InfectionsGraph extends React.Component {
             <div className='chart'>
                <Bar data={this.state.chartData} options={{
                    legend: {display:true,
-                            position:'right'
+                            position:'right',
+                            labels: {
+                                fontColor: 'white'
+                            }
+                   },
+                   scales: {
+                       yAxes: [{
+                           ticks: {
+                               fontColor: 'white'
+                           }
+                       }],
+                       xAxes: [{
+                           ticks: {
+                               fontColor: 'white'
+                           }
+                       }]
                    }
                }}/>
             </div>

@@ -12,8 +12,8 @@ const Dashboard = () => {
                         <p>These graphs show the infections and deaths from COVID19 so far</p>
                     </div>
             </div>
-            <InfectionsGraph />
             <DeathsGraph />
+            <InfectionsGraph />
         </div>
     )
 }
