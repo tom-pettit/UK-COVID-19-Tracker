@@ -52,11 +52,3 @@ Reach out to me at one of the following places!
 > I'm really not expecting any donations, but if you are feeling in a very generous mood, any donations would be greatly appreciated!
 
 > [![PAYPAL](https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png)](https://paypal.me/tompettit7)
-
-
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
