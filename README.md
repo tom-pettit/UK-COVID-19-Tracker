@@ -32,6 +32,9 @@
 **The Graphs**
 > By clicking the 'Graphs' tab in the navbar, the user can see a page showing 2 graphs: one for deaths from COVID-19, and one for COVID-19 infections.
 
+[![DEATHS GRAPH](https://snipboard.io/pWE1iL.jpg)]() [![INFECTIONS GRAPH](https://snipboard.io/QAVPj5.jpg)]()
+
+
 > These graphs help to visualise how the virus has developed over time in the UK.
 
 > NOTE: Where there are missing bars, the data is unavailable for that day.
