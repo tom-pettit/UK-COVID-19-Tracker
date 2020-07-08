@@ -27,6 +27,9 @@
 **The Graphs**
 > The graphs were made using the React wrapper for Chart.js <a href='https://github.com/jerairrest/react-chartjs-2'>(Link)</a>
 
+**Firebase**
+> The site is hosted on <a href='https://firebase.google.com/'>Firebase</a>
+
 ---
 
 ## Features
