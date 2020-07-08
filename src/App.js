@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard'
 import About from './components/About'
 import Graphs from './components/Graphs'
 import { BrowserRouter, Route } from 'react-router-dom'
+import DropdownMenu from './components/DropdownMenu';
 
 class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
         <div className="App" style={{backgroundColor: '#002855'}}>
           <Navbar />
           <Route exact path='/' component={Dashboard} />
+          <Route path='/dropdownmenu' component={DropdownMenu} />
           <Route path='/graphs' component={Graphs}/>
           <Route path='/about' component={About}/>
         </div>

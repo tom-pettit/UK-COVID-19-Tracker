@@ -20,36 +20,28 @@ class Stats extends React.Component {
         
         const dataObject = this.state.data ? (
             <div>
-                
-                <div className="row">
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div className="col s1 red-text"><h1 style={{fontSize:'100px'}}><CountUp duration={4} end={this.state.data.data.today.deaths}/></h1></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div className="col s1 yellow-text"><h1 style={{fontSize:'100px'}}><CountUp duration={4} end={this.state.data.data.today.confirmed}/></h1></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
+                <div class="row">
+                    <div class="col s6" style={{paddingLeft: '0'}}>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content red">
+                            <span class="card-title" style={{fontWeight: "bold", color: '#002855'}}>{this.state.data.data.today.deaths}</span>
+                            <p style={{fontWeight: "bold", color: '#002855'}}>Deaths today</p>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="col s6" style={{paddingRight: '0'}}>
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content yellow">
+                            <span class="card-title" style={{fontWeight: "bold", color: '#002855'}}>{this.state.data.data.today.confirmed}</span>
+                            <p style={{fontWeight: "bold", color: '#002855'}}>Infections today</p>
+                        </div>
+                    </div>
+                    </div>
                 </div>
 
-                <div className="row">
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div className="col s1 red-text"><h1 style={{fontSize:'50px'}}>deaths today</h1></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div className="col s1 yellow-text"><h1 style={{fontSize:'50px'}}>infections today</h1></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                    <div class="col s1"></div>
-                </div>
+                
 
                 <br></br>
 
