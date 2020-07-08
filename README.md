@@ -6,7 +6,7 @@
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/tom-pettit/covid19tracker?style=for-the-badge)
 
-[![DASHBOARD](https://snipboard.io/c14DkF.jpg)]()
+[![DASHBOARD](https://snipboard.io/EDyq1l.jpg)]()
 
 ## Table of Contents 
 - [How It's Made](#howitsmade)
